@@ -1,0 +1,69 @@
+/*body {margin:0;font-family: 'Ubuntu', sans-serif;}*/
+
+.ribbon {
+  display: inline-block;
+  width: 48%;
+  height: 188px;
+  position: relative;
+  float: left;
+
+  background-size: cover;
+  text-transform: uppercase;
+  color: #000;
+}
+.ribbon:nth-child(even) {margin-right: 4%;}
+@media (max-width: 500px) {
+  .ribbon {width: 100%}
+  .ribbon:nth-child(even) {margin-right: 0%;}
+}
+
+.wrap {
+  width: 97%;
+  height: 160px;
+  position: absolute;
+  top: -8px;
+  left: 8px;
+  overflow: hidden;
+}
+.wrap:before {
+    content: "";
+    display: block;
+    border-radius: 8px 8px 0px 0px;
+    width: 20px;
+    height: 8px;
+    position: absolute;
+    right: 80px;
+    background: #d00;
+}
+.wrap:after {
+    content: "";
+    display: block;
+    border-radius: 0px 8px 8px 0px;
+    width: 8px;
+    height: 20px;
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    background: #d00;
+}
+.ribbon6 {
+  display: inline-block;
+  text-align: center;
+  width: 160px;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  top: 30px;
+  right: -50px;
+  z-index: 2;
+  overflow: hidden;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+
+  box-shadow:0 0 0 3px #ff4400,  0px 21px 5px -18px rgba(0,0,0,0.6);
+ background: #ff4400;
+ color:white;
+}

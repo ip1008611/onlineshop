@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="localhost" deleteMissingItems="true" createEmptyFolders="true" uploadOnCheckin="e1e2f2e1-c290-4049-9033-cf3832e57ab1">
+    <serverData>
+      <paths name="localhost">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="localhost" />
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
